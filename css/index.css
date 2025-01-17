@@ -303,15 +303,17 @@ h3 {
    }
 
    #portfolio{
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       color: #efebde;
+      height: 100%;
+      
    }
 
-   #portfolio div{
+   #portfolio .portfolio-container{
       display: flex;
       width: 100%;
    
@@ -449,6 +451,11 @@ h3 {
       align-items: center;
       justify-content: center;
       height: 100vh;
+   }
+
+   #portfolio .portfolio-container{
+      flex-direction: column;
+
    }
 
 }
