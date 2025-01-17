@@ -459,4 +459,9 @@ h3 {
 
    }
 
+   .portfolio-left, .portfolio-right{
+      width: 100%;
+   }
+
+
 }
