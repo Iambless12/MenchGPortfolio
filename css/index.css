@@ -308,8 +308,30 @@ h3 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      color: #efebde;
+   }
+
+   #portfolio div{
+      display: flex;
+      width: 100%;
+   
+   }
+
+   .portfolio-left, .portfolio-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
    }
+
+   .portfolio-right img{
+      max-height: 600px;
+      height: 100%;
+      width:100% ;
+
+   }
+   
 
    #portfolio img{
       
